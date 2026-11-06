@@ -1,0 +1,14 @@
+{
+  "name": "news-digest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fetches top international headlines from BBC, Reuters, and NYT RSS feeds and emails a digest via your own SMTP account.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node digest.js",
+    "preview": "node digest.js --preview"
+  },
+  "dependencies": {
+    "nodemailer": "6.9.14"
+  }
+}

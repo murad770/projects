@@ -1,0 +1,10 @@
+# Secrets — never commit real credentials
+.env
+
+# Generated output
+digest.html
+
+# Dependencies and logs
+node_modules/
+digest.log
+npm-debug.log*
